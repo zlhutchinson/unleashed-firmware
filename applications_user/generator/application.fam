@@ -1,0 +1,14 @@
+App(
+    appid="generator",
+    name="Password Generator",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="generator",
+    cdefines=["APP_GENERATOR"],
+    requires=[
+        "gui",
+    ],
+    stack_size=2 * 1024,
+    order=20,
+    fap_icon="generator.png",
+    fap_category="Tools",
+)
